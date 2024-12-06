@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color:white;
+    font-family: "Nunito Sans", serif;
+}
+
+/* seccion sidebar */
+
+.menu{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.side-bar{
+    background-color: #0A0A0A;
+    width: 25vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+img.avatar {
+    width: 50px;
+    border-radius: 100px;
+}
+
+.asesores{
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-bottom: 1px solid #2A2A2A;
+}
+ul.listado-asesores {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.nuevo-chat {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #2A2A2A;
+}
+
+.boton-nuevo-chat {
+    width: 50%;
+    background-color: #6A200D;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.boton-nuevo-chat:hover {
+    background-color: #440f02;
+}
+
+.texto-nombre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.nombre-principal{
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.acciones {
+    display: flex;
+}
+
+.icono {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* seccion principal */
+
+.principal{
+    background-color: #131111;
+    width: 85vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal-contenedor{
+    display: flex;
+    width: 40vw;
+    flex-direction: column;
+    min-height: 300px;
+    justify-content: space-between;
+}
+
+.img-dimesion{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.titulo, .parrafo{
+    text-align: center;
+}
